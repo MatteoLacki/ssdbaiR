@@ -19,3 +19,6 @@ saveNetworkPlot(ID$stringId, ncbi, 'test.png')
 # saveNetworkPlot(ID$stringId, ncbi, 'test.png', query_limit=20)
 
 saveNetworkPlot(D$uniprot, ncbi, 'test2.png')
+fwrite(ENRICH, file='enrich.csv')
+
+
